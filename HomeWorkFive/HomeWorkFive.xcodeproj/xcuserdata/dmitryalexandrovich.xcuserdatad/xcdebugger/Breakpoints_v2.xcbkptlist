@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "E1FE3531-A357-40FB-B269-BE075DDC1BF8"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E1DBBFF9-F0EC-4151-A25F-9653AF62D72B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HomeWorkFive/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "E1DBBFF9-F0EC-4151-A25F-9653AF62D72B - c9c5c25435c58783"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HomeWorkFive.ViewController.plusCraftBeer.getter : Swift.Optional&lt;__C.UIButton&gt;"
+                  moduleName = "HomeWorkFive"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dmitryalexandrovich/Desktop/Development/HomeWorkAndLessonsCourse/HomeWorkFive/HomeWorkFive/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "E1DBBFF9-F0EC-4151-A25F-9653AF62D72B - e29031746f75579f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HomeWorkFive.ViewController.plusCraftBeer.setter : Swift.Optional&lt;__C.UIButton&gt;"
+                  moduleName = "HomeWorkFive"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dmitryalexandrovich/Desktop/Development/HomeWorkAndLessonsCourse/HomeWorkFive/HomeWorkFive/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "108">
+               </Location>
+               <Location
+                  uuid = "E1DBBFF9-F0EC-4151-A25F-9653AF62D72B - 984db97eddae5be"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HomeWorkFive.ViewController.plusCraftBeer.modify : Swift.Optional&lt;__C.UIButton&gt;"
+                  moduleName = "HomeWorkFive"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dmitryalexandrovich/Desktop/Development/HomeWorkAndLessonsCourse/HomeWorkFive/HomeWorkFive/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "48">
+               </Location>
+               <Location
+                  uuid = "E1DBBFF9-F0EC-4151-A25F-9653AF62D72B - 438dd70040129dc2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HomeWorkFive.ViewController.plusCraftBeer.modify : Swift.Optional&lt;__C.UIButton&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "HomeWorkFive"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dmitryalexandrovich/Desktop/Development/HomeWorkAndLessonsCourse/HomeWorkFive/HomeWorkFive/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "E1DBBFF9-F0EC-4151-A25F-9653AF62D72B - ace37c775ddd1196"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HomeWorkFive.ViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; HomeWorkFive.ViewController"
+                  moduleName = "HomeWorkFive"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dmitryalexandrovich/Desktop/Development/HomeWorkAndLessonsCourse/HomeWorkFive/HomeWorkFive/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "328">
+               </Location>
+               <Location
+                  uuid = "E1DBBFF9-F0EC-4151-A25F-9653AF62D72B - 4ac5b7d7865f79c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HomeWorkFive.ViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;HomeWorkFive.ViewController&gt;"
+                  moduleName = "HomeWorkFive"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dmitryalexandrovich/Desktop/Development/HomeWorkAndLessonsCourse/HomeWorkFive/HomeWorkFive/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "304">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
