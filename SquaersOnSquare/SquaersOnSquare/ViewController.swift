@@ -8,49 +8,48 @@
 import UIKit
 
 class ViewController: UIViewController {
+    let side: CGFloat = 40
+    var x: CGFloat = 0
+    var y: CGFloat = 44
     
-    var newSquare = UIView()
-//    var x = Int.random(in: 0..<414)
-//    var y = Int.random(in: 0..<814)
-
-    //Int.random(in: 0..<414)
-    
-    static var random: UIColor {
-            let r:CGFloat  = .random(in: 0...1)
-            let g:CGFloat  = .random(in: 0...1)
-            let b:CGFloat  = .random(in: 0...1)
-            return UIColor(red: r, green: g, blue: b, alpha: 1)
-        }
-    var colour = random
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
     }
-    
-//    func createSquare(){
-//        newSquare.frame = CGRect(x: 0, y: 44, width: 40, height: 40)
-//
-//        newSquare.backgroundColor = colour
-//        self.view.addSubview(newSquare)
-//    }
-    func createSquare() {
-        var x = 0
-        var y = 44
-        if x < 400 {
-            x += 40
-            if x == 400{
-                x = 0}
+    func canCreateView() -> Bool {
+        if self.x + self.side > self.view.frame.size.width { return false }
+        if self.y + self.side > self.view.frame.size.height { return false }
+        
+        return true
+    }
+    func addView() {
+        let newView = UIView(frame: CGRect(x: self.x, y: self.y, width: self.side, height: self.side))
+        newView.backgroundColor = randomColor()
+        self.view.addSubview(newView)
+    }
+    func createView(){
+        if canCreateView(){
+            addView()
+            self.x += self.side
+            self.createView()
+        } else if self.x + self.side > self.view.frame.size.width{
+            self.x = 0
+            self.y += self.side
+            if canCreateView() {
+                self.createView()
+            }
         }
-        newSquare.frame = CGRect(x: x, y: y, width: 40, height: 40)
-        newSquare.backgroundColor = colour
-        self.view.addSubview(newSquare)
     }
-    
+    func randomColor() -> UIColor{
+        
+        let r = CGFloat(arc4random()) / CGFloat(UInt32.max)
+        let g = CGFloat(arc4random()) / CGFloat(UInt32.max)
+        let b = CGFloat(arc4random()) / CGFloat(UInt32.max)
+        
+        return UIColor(red: r, green: g, blue: b, alpha: 1.0)
+    }
     @IBAction func createSquarePressed(_ sender: UIButton) {
-        createSquare()
+        createView()
     }
-    
-    
 }
 
