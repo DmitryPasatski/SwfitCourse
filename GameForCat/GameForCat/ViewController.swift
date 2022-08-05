@@ -8,17 +8,20 @@
 import UIKit
 
 class ViewController: UIViewController {
+    // MARK: - Outlets
     @IBOutlet weak var cirkleButton: UIButton!
+    // MARK: - ViewLife
     override func viewDidLoad() {
         super.viewDidLoad()
         self.createView()
         // Do any additional setup after loading the view.
     }
+    // MARK: - Actions
     @IBAction func cirkleButtonPressed(_ sender: UIButton) {
         createView()
     }
-    
-    func createView(){
+    // MARK: - Functions
+    private func createView(){
         let originX = Int.random(in: 0..<(414-80))
         let originY = Int.random(in: 39..<818-80)
         cirkleButton.frame = CGRect(x: originX, y: originY, width: 80, height: 80)
