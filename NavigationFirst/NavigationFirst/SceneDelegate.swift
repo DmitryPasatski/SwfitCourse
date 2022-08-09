@@ -1,8 +1,8 @@
 //
 //  SceneDelegate.swift
-//  SquaersOnSquare
+//  NavigationFirst
 //
-//  Created by Dmitry Alexandrovich on 3.08.22.
+//  Created by Dmitry Alexandrovich on 9.08.22.
 //
 
 import UIKit

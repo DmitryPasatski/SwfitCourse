@@ -1,10 +1,3 @@
-//
-//  ViewController.swift
-//  SquaersOnSquare
-//
-//  Created by Dmitry Alexandrovich on 3.08.22.
-//
-
 import UIKit
 
 class ViewController: UIViewController {
@@ -43,7 +36,7 @@ class ViewController: UIViewController {
     "Cayan",
     "Brown"
     ]
-    
+    let text = "Some text on main storyboard"
     
     
     // MARK: - ViewDidLoad
