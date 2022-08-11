@@ -1,18 +1,17 @@
 import UIKit
 
-class ViewController: UIViewController {
-    
+class SecondViewController: UIViewController {
+
     override func viewDidLoad() {
         super.viewDidLoad()
     }
-    
-    
-    @IBAction func startGameButtomPressed(_ sender: UIButton) {
-        let controller = storyboard?.instantiateViewController(withIdentifier: "SecondViewController") as! SecondViewController
+    @IBAction func startGameButtonPressed(_ sender: UIButton) {
+        let controller = self.storyboard?.instantiateViewController(withIdentifier: "ViewController") as! ViewController
         controller.modalPresentationStyle = .fullScreen
         controller.modalTransitionStyle = .flipHorizontal
         self.present(controller, animated: true, completion: nil)
     }
     
+    
+    
 }
-
