@@ -63,12 +63,12 @@
 				5F1154AC2897E8540063268E /* AppDelegate.swift */,
 				5F1154AE2897E8540063268E /* SceneDelegate.swift */,
 				5F1154B02897E8540063268E /* ViewController.swift */,
+				5F223EA828A3B2D4004EBC66 /* SecondViewController.swift */,
 				5F1154B22897E8540063268E /* Main.storyboard */,
 				5F1154B52897E8550063268E /* Assets.xcassets */,
 				5F1154B72897E8550063268E /* LaunchScreen.storyboard */,
 				5F1154C02897E9A40063268E /* JustInfo.swift */,
 				5F1154BA2897E8550063268E /* Info.plist */,
-				5F223EA828A3B2D4004EBC66 /* SecondViewController.swift */,
 			);
 			path = GameForCat;
 			sourceTree = "<group>";
