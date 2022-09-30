@@ -91,64 +91,108 @@
                         <rect key="frame" x="0.0" y="0.0" width="896" height="414"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gSY-N7-JdV">
-                                <rect key="frame" x="20" y="44" width="47" height="42"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="&lt;-">
-                                    <fontDescription key="titleFontDescription" name="Helvetica" family="Helvetica" pointSize="24"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <action selector="backButtonPressed:" destination="q6x-T8-33Z" eventType="touchUpInside" id="wkU-Lp-RPL"/>
-                                </connections>
-                            </button>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dFU-cq-co3">
-                                <rect key="frame" x="107" y="374" width="789" height="40"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="K4Y-28-ZST">
+                                <rect key="frame" x="0.0" y="0.0" width="806" height="80"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lPr-EX-lAR">
-                                        <rect key="frame" x="28" y="-20" width="35" height="31"/>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gSY-N7-JdV">
+                                        <rect key="frame" x="0.0" y="8" width="47" height="42"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="&lt;-">
+                                            <fontDescription key="titleFontDescription" name="Helvetica" family="Helvetica" pointSize="24"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="backButtonPressed:" destination="q6x-T8-33Z" eventType="touchUpInside" id="wkU-Lp-RPL"/>
+                                        </connections>
                                     </button>
                                 </subviews>
-                                <color key="backgroundColor" red="0.69665404040404044" green="0.40201762553370857" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.63600845079946078" green="1" blue="0.93444334415077235" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="Fgq-Qv-agp"/>
+                                </constraints>
                             </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="K4Y-28-ZST">
-                                <rect key="frame" x="107" y="0.0" width="789" height="80"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NHw-47-ATI">
+                                <rect key="frame" x="0.0" y="80" width="806" height="313"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8oQ-B0-Uen">
-                                        <rect key="frame" x="-22" y="0.0" width="22" height="128"/>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="o4q-EG-hca">
+                                        <rect key="frame" x="50" y="80" width="90" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                    </view>
-                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="83R-4x-Vq4">
-                                        <rect key="frame" x="76" y="-302" width="78" height="417"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F5M-dw-vvN">
-                                                <rect key="frame" x="37" y="163" width="41" height="31"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
-                                            </button>
-                                        </subviews>
-                                        <color key="backgroundColor" red="0.80935818890464384" green="0.9873363866185707" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="backgroundColor" systemColor="systemYellowColor"/>
                                     </view>
                                 </subviews>
-                                <color key="backgroundColor" red="0.63600845079946078" green="1" blue="0.93444334415077235" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NHw-47-ATI">
-                                <rect key="frame" x="107" y="80" width="789" height="294"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.25064779956881333" green="0.7727921142213503" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1TJ-cL-H30">
+                                <rect key="frame" x="806" y="0.0" width="90" height="431"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="deh-Z3-ttT">
+                                        <rect key="frame" x="0.0" y="112" width="60" height="100"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="0.60918802983590736" green="0.75621885738736583" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="UP"/>
+                                        <connections>
+                                            <action selector="upButtonNotPressed:" destination="q6x-T8-33Z" eventType="touchUpOutside" id="WCX-MZ-8rI"/>
+                                            <action selector="upButtonNotPressed:" destination="q6x-T8-33Z" eventType="touchUpInside" id="jfd-0l-d4w"/>
+                                            <action selector="upButtonPressed:" destination="q6x-T8-33Z" eventType="touchDown" id="TLy-zW-G3n"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WkL-k3-lqW">
+                                        <rect key="frame" x="0.0" y="213" width="60" height="100"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="0.60918802983590736" green="0.75621885738736583" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="Down"/>
+                                        <connections>
+                                            <action selector="downButtonNotPressed:" destination="q6x-T8-33Z" eventType="touchUpOutside" id="Taz-nQ-hV4"/>
+                                            <action selector="downButtonNotPressed:" destination="q6x-T8-33Z" eventType="touchUpInside" id="bjb-52-v77"/>
+                                            <action selector="downButtonPressed:" destination="q6x-T8-33Z" eventType="touchDown" id="NG4-mF-6d2"/>
+                                        </connections>
+                                    </button>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aU1-fG-3ak">
+                                        <rect key="frame" x="61" y="0.0" width="29" height="411"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" systemColor="linkColor"/>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" red="0.68706566159847193" green="0.90654578366255878" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dFU-cq-co3">
+                                <rect key="frame" x="0.0" y="374" width="806" height="40"/>
+                                <color key="backgroundColor" red="0.69665404040404044" green="0.40201762553370857" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="wob-od-mbf"/>
+                                </constraints>
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="nte-FM-ALQ"/>
-                        <color key="backgroundColor" red="0.5590186889751626" green="0.95063127477649101" blue="0.96317313762626267" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="dFU-cq-co3" firstAttribute="leading" secondItem="Mm7-bP-EFE" secondAttribute="leading" id="5Ng-JW-3eY"/>
+                            <constraint firstAttribute="bottom" secondItem="1TJ-cL-H30" secondAttribute="bottom" id="6hE-J0-SVi"/>
+                            <constraint firstAttribute="trailing" secondItem="NHw-47-ATI" secondAttribute="trailing" constant="90" id="8ks-CB-Zbw"/>
+                            <constraint firstItem="nte-FM-ALQ" firstAttribute="bottom" secondItem="NHw-47-ATI" secondAttribute="bottom" id="8ph-Fg-07T"/>
+                            <constraint firstItem="NHw-47-ATI" firstAttribute="leading" secondItem="Mm7-bP-EFE" secondAttribute="leading" id="Bcu-dR-HqV"/>
+                            <constraint firstAttribute="trailing" secondItem="dFU-cq-co3" secondAttribute="trailing" constant="90" id="Fny-rR-z5t"/>
+                            <constraint firstItem="K4Y-28-ZST" firstAttribute="top" secondItem="nte-FM-ALQ" secondAttribute="top" id="QDh-wv-rqt"/>
+                            <constraint firstItem="NHw-47-ATI" firstAttribute="top" secondItem="K4Y-28-ZST" secondAttribute="bottom" id="SWC-8O-acP"/>
+                            <constraint firstAttribute="bottom" secondItem="dFU-cq-co3" secondAttribute="bottom" id="bQA-pL-dRT"/>
+                            <constraint firstAttribute="trailing" secondItem="K4Y-28-ZST" secondAttribute="trailing" constant="90" id="eGa-mm-SVu"/>
+                            <constraint firstItem="1TJ-cL-H30" firstAttribute="top" secondItem="nte-FM-ALQ" secondAttribute="top" id="hoG-P1-ezl"/>
+                            <constraint firstItem="1TJ-cL-H30" firstAttribute="leading" secondItem="K4Y-28-ZST" secondAttribute="trailing" id="j6h-8W-oFc"/>
+                            <constraint firstAttribute="trailing" secondItem="1TJ-cL-H30" secondAttribute="trailing" id="kg5-43-L89"/>
+                            <constraint firstItem="K4Y-28-ZST" firstAttribute="leading" secondItem="Mm7-bP-EFE" secondAttribute="leading" id="o6j-gX-b8e"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="downButton" destination="WkL-k3-lqW" id="a3N-Zx-YGh"/>
+                        <outlet property="earthView" destination="dFU-cq-co3" id="ETE-ze-ogi"/>
+                        <outlet property="oxigenView" destination="aU1-fG-3ak" id="OnR-Bp-EgJ"/>
+                        <outlet property="seaView" destination="K4Y-28-ZST" id="Wu5-rI-QxW"/>
+                        <outlet property="submarineView" destination="o4q-EG-hca" id="6Ox-bU-QKZ"/>
+                        <outlet property="upButton" destination="deh-Z3-ttT" id="PFp-Ln-Ttg"/>
+                        <outlet property="waterView" destination="NHw-47-ATI" id="LS6-w7-8fX"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Wg1-oT-330" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -184,8 +228,11 @@
         </scene>
     </scenes>
     <resources>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        <systemColor name="linkColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemYellowColor">
+            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
