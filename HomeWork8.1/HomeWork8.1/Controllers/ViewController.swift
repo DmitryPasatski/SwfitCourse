@@ -9,7 +9,12 @@ class ViewController: UIViewController {
 
     }
     @IBAction func nextViewButtonPressed(_ sender: UIButton) {
-        let controller = self.storyboard?.instantiateViewController(withIdentifier: "SecondViewController") as! SecondViewController
+        
+        guard  let controller = self.storyboard?.instantiateViewController(withIdentifier: "SecondViewController") as? SecondViewController else {
+            return
+        }
+        
+        
         controller.modalPresentationStyle = .fullScreen
         controller.modalTransitionStyle = .coverVertical
         controller.secondText = firstText
